@@ -18,12 +18,12 @@ def show():
 
     # RAG Chatbot on 3R Practices for Household
     with st.expander("RAG Chatbot on 3Rs Practices for Household"):
-        st.write("Objective: To enable households to learn about the 3Rs practices in a engaging and conversational manner.")
+        st.write("Objective: To enable households to learn about the 3Rs practices in an engaging and conversational manner.")
         st.write("We load the knowledge base, set up the embeddings, vector store, language model and retrievalQA Chain, ensure total tokens from prompt and response do not exceed model limit and return the response to the prompt.")
 
     # RAG Chatbot on Reducing Food Wastage & Saving Money
     with st.expander("RAG Chatbot on Reducing Food Wastage & Saving Money"):
-        st.write("Objective:To enable households to learn about reducing food wastage & saving money in a engaging and conversational manner.")
+        st.write("Objective:To enable households to learn about reducing food wastage & saving money in an engaging and conversational manner.")
         st.write("We load the knowledge base, set up the embeddings, vector store, language model and retrievalQA Chain, ensure total tokens from prompt and response do not exceed model limit and return the response to the prompt.")
 
     # Recipe Suggestion for your Food Excesses
