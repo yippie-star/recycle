@@ -43,11 +43,11 @@ def show():
     llm = OpenAI(openai_api_key=openai_api_key)
     retrieval_qa = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=vector_store.as_retriever())
 
-    st.markdown("<h1 style='color: green;'>Guide to 3R Practices for Households</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color: green;'>Guide to 3Rs Practices for Households</h1>", unsafe_allow_html=True)
 
     # User input for the prompt with character limit
     max_prompt_length = 300
-    user_prompt = st.text_area("What do you want to know about 3R Practices? (max 300 characters):", "", max_chars=max_prompt_length)
+    user_prompt = st.text_area("What do you want to know about 3Rs Practices? (max 300 characters):", "", max_chars=max_prompt_length)
 
     # Button to submit the prompt
     if st.button("Get Response"):

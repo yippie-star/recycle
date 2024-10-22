@@ -30,7 +30,7 @@ def check_password():
 # Main app logic
 def main():
     if check_password():
-        st.write("The 3R (Recycle, Reuse, Reduce) App for Households")
+        st.write("The 3Rs (Recycle, Reuse, Reduce) App for Households")
         st.sidebar.title("Navigation")
         page = st.sidebar.selectbox("Select a page:", ["Home", "Blue Recycling Bin Checker", "Guide to 3Rs Practices", "Guide to Reducing Food Wastage & Saving Money", "Recipe Suggestion for Excess Food", "Statistics", "About Us", "Methodology"])
 
