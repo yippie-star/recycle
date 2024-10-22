@@ -8,7 +8,6 @@ import tiktoken
 
 def show():
     # Load API key from secrets.toml
-    secrets = toml.load("secrets.toml")
     openai_api_key = secrets["openai"]["api_key"]
 
     # Set up OpenAI API client

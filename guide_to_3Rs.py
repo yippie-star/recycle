@@ -11,7 +11,6 @@ import tiktoken
 
 def show():
     # Load secrets
-    secrets = toml.load("secrets.toml")
     openai_api_key = secrets["openai"]["api_key"]
 
     # Function to load documents from GitHub

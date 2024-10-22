@@ -34,7 +34,7 @@ def show():
     # Waste Generated and Waste Recycling Statistics
     with st.expander("Waste Generated and Waste Recycling Statistics"):
         st.write("Objective: To increase awareness of the Waste Generated and Waste Recycling Trends in Singapore") 
-        st.write("We read the data and display charts. For data enquiry, user can enter their prompts and if they contain ‘total’, ‘average’, ‘sum’, ‘max’ or ‘year’, the response will be returned accordinly.")
+        st.write("We read the data and display charts. For data enquiry, users can enter their prompts and if the prompts contain ‘total’, ‘average’, ‘sum’, ‘max’ or ‘year’, the response will be returned accordingly.")
 
 # Call the show function to run the app
 if __name__ == "__main__":
