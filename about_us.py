@@ -15,7 +15,7 @@ There are 5 features in the 3Rs (Recycle, Reuse, Reduce) App for Households:
 - Blue Recycling Bin Checker 🔵
 - RAG Chatbot on 3Rs Practices for Household ♻️
 - RAG Chatbot on Reducing Food Wastage & Saving Money 🥗💰
-- Recipe Suggestion for your Food Excesses 🥗💰
+- Recipe Suggestion for your Food Excesses 🥬🥦🥕🥗
 - Waste Generated and Waste Recycling Statistics ♻️📊
 
 ### **Data Sources**
