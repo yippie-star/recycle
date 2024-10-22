@@ -11,7 +11,7 @@ import tiktoken
 
 def show():
     # Load secrets
-    openai_api_key = secrets["openai"]["api_key"]
+    openai_api_key = st.secrets["openai"]["api_key"]
 
     # Function to load documents from GitHub
     def load_documents_from_github(file_urls):
